@@ -38,8 +38,8 @@ Gradio para la interfaz de usuario.
 ## Instrucciones para ejecutar el proyecto.
 
 Idealmente crea un entorno virtual, la manera en la que yo lo hice para este proyecto fue ejecutando el comando: virtualenv -p python3 venv
-Luego de crear el entorno virtual debes ejecutar (asegurate de estar en la raíz del proyecto): pip install -r requirements.txt
-Finalmente, para poder interactuar con el agente ejecuta: python graph.py
+Luego de crear el entorno virtual debes ejecutar (asegurate de estar en la raíz del proyecto): `pip install -r requirements.txt`
+Finalmente, para poder interactuar con el agente ejecuta: `python graph.py`
 Se puede acceder temporalmente mediante la siguiente URL: http://148.116.111.79:7860/
 
 ## Ejemplos de pregunta que el agente puede responder:
@@ -65,10 +65,8 @@ A continuación te presento las respuestas que dejó el agente a cada pregunta d
 - **Segunda infracción:** Reprobación automática del curso sin derecho a reembolso.
 
 3. Para recibir un reembolso por una matrícula en el Colegio Nexo Digital, se deben cumplir las siguientes condiciones:
+   1. **Periodo de Garantía de Satisfacción**: La solicitud debe realizarse dentro de los primeros 7 días calendario posteriores a la compra del curso.
+   2. **Uso del Contenido**: El estudiante no debe haber visualizado más del 15% del contenido total del curso ni haber descargado recursos adjuntos (como plantillas, código base o ejercicios).
 
-1) **Periodo de Garantía de Satisfacción**: La solicitud debe realizarse dentro de los primeros 7 días calendario posteriores a la compra del curso.
-2) **Uso del Contenido**: El estudiante no debe haber visualizado más del 15% del contenido total del curso ni haber descargado recursos adjuntos (como plantillas, código base o ejercicios).
-
-Existe una excepción para estas condiciones:
-
-- **Problemas Técnicos Impeditivos**: Si el estudiante experimenta fallas técnicas atribuibles a la plataforma que impidan el acceso por más de 72 horas consecutivas, tendrá derecho a un reembolso total sin importar el porcentaje del curso avanzado.
+   Existe una excepción para estas condiciones:
+   - **Problemas Técnicos Impeditivos**: Si el estudiante experimenta fallas técnicas atribuibles a la plataforma que impidan el acceso por más de 72 horas consecutivas, tendrá derecho a un reembolso total sin importar el porcentaje del curso avanzado.
