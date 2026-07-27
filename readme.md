@@ -9,15 +9,16 @@ Este es un agente de IA creado con LangChain y LangGraph que está capacitado pa
 La arquitectura del proyecto está orientada a un agente de IA basado en RAG con un grafo de acciones y una interfaz ligera.
 
 Componentes principales:
-.env: configuración de variables de entorno para credenciales y parámetros de los modelos.
-archivos-escuela/: contiene los PDFs de políticas, reglamentos y guías que se usan como base de conocimiento.
-rag.py: gestiona la parte de Recuperación Augmentada por Generación, probablemente creando embeddings, vectores y buscando información relevante en los documentos.
-graph.py: define el grafo de flujo de decisiones del agente usando LangGraph.
-agent_state.py: mantiene el estado del agente durante la ejecución, controlando contexto y memoria de la conversación.
-node_actions.py: implementa las acciones que se ejecutan en los nodos del grafo.
-conditional_edge_action.py: maneja transiciones condicionales entre nodos según resultados o condiciones.
-.gradio/: contiene la interfaz de usuario construida con Gradio para interactuar con el agente.
-readme.md: describe el propósito del proyecto y su arquitectura general.
+
+- .env: Configuración de variables de entorno para credenciales y parámetros de los modelos.
+- archivos-escuela/: Contiene los PDFs de políticas, reglamentos y guías que se usan como base de conocimiento.
+- rag.py: Gestiona la parte de Recuperación Augmentada por Generación, probablemente creando embeddings, vectores y buscando información relevante en los documentos.
+- graph.py: Define el grafo de flujo de decisiones del agente usando LangGraph.
+- agent_state.py: Mantiene el estado del agente durante la ejecución, controlando contexto y memoria de la conversación.
+- node_actions.py: Implementa las acciones que se ejecutan en los nodos del grafo.
+- conditional_edge_action.py: Maneja transiciones condicionales entre nodos según resultados o condiciones.
+- .gradio/: Contiene la interfaz de usuario construida con Gradio para interactuar con el agente.
+- readme.md: Describe el propósito del proyecto y su arquitectura general.
 
 Flujo esperado:
 
