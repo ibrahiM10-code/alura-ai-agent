@@ -1,0 +1,9 @@
+langchain
+langgraph
+python-dotenv
+gradio
+langchain-google-genai
+langchain-community
+unstructured
+"unstructured[pdf]"
+faiss-cpu
