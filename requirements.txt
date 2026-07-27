@@ -5,5 +5,5 @@ gradio
 langchain-google-genai
 langchain-community
 unstructured
-"unstructured[pdf]"
+unstructured[pdf]
 faiss-cpu
